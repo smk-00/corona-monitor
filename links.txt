@@ -1,0 +1,5 @@
+# Face mask classification dataset
+https://www.kaggle.com/code/nageshsingh/mask-and-social-distancing-detection-using-vgg19
+
+# human detection dataset
+http://www.crowdhuman.org/download.html
