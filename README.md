@@ -8,6 +8,9 @@
 ## Approach:
 The YOLOV7 is used to detect the person coordinates and face coordinates. 
 The SIMPLE ONLINE & REALTIME TRACKING (SORT) is used for tracking the same person over different frames of the video and it is used for assigning a unique ID to each person in a video.
+<div >
+  <img src="https://user-images.githubusercontent.com/65153292/209471016-b6bc9132-9cb4-473b-8ff5-583381fd41ad.png" />
+</div>
 
 The person coordinates are used for monitoring the social distance between the people by calculating their Euclidian distance between the centroid positions of them. 
 The face coordinates are used to extract faces from the frame and given to MobileNetV2 for classifying the faces with or without mask. 
